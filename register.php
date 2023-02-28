@@ -45,6 +45,7 @@ if (isset($_POST['submit'])) {
     $repeat_password = $_POST['repeat-password'];
 
     $fieldsValid = checkFields($name, $email, $password, $repeat_password);
+
     $id = generateUuidV4();
 
     if ($fieldsValid) {

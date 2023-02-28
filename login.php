@@ -71,6 +71,7 @@ if (isset($_POST['submit'])) {
                             <label class="form-label" for="password">Password</label>
                             <input class="form-control" type="password" id="password" name="password" minlength="8" required />
                             <div class="valid-feedback">Parece bom!</div>
+
                             <div class="invalid-feedback">O campo senha deve conter no mínimo 8 caracteres com letras maiúsculas e minúsculas, números, caracteres especiais e não conter sequências.</div>
                         </div>
 

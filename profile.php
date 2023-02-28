@@ -16,6 +16,7 @@ function getUser($pdo, $id)
     return null;
 }
 
+
 function getAllUsers($pdo)
 {
     $stmt = $pdo->prepare("SELECT * FROM users");

@@ -12,7 +12,7 @@ CREATE TABLE
     );
 
 INSERT INTO
-    users (id, name, email, password)
+    `users` (id, name, email, password)
 VALUES (
         uuid(),
         'admin',
